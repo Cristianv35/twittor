@@ -12,12 +12,11 @@
     background-color: #dde1e2; 
     width: 100%;
 
-
-    overscroll-behavior-y: contain;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-}
+    overscroll-behavior-y: contain; /*  deshabilitar refresh en iOS   */
+    -webkit-user-select: none;  /*  deshabilitar selecciones en iOS   */
+    -webkit-tap-highlight-color: transparent; /*  deshabilitar highlights en iOS   */
+    -webkit-touch-callout: none; /*  deshabilitar callouts en iOS   */
+  }
 
 /* Personalizados */
 .oculto {
